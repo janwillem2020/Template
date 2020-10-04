@@ -1,0 +1,65 @@
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img1 {
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    right: 500px;
+    transform: scale(1.0);
+}
+
+div {
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    right: 500px;
+}
+
+.nav {
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  .nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .nav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .nav a.active {
+    background-color: gray;
+    color: white;
+  }
+
+
+i {
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.p1 {
+  position: absolute;
+  top: 440px;
+  left: 400px;
+  right: 400px;
+  color: white;
+  font-size: 30px;
+}
